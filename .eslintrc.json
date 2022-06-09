@@ -1,11 +1,13 @@
 {
-	"root": true,
-	"extends": "marine/prettier/node",
-	"parserOptions": {
-		"project": "./tsconfig.eslint.json"
-	},
-	"ignorePatterns": ["**/dist/*"],
+	"extends": "eslint:recommended",
 	"env": {
-		"jest": true
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2021
+	},
+	"rules": {
+
 	}
 }
