@@ -10,14 +10,14 @@ module.exports = {
       .setColor('#ffffff')
       .setTitle('sustinho')
       .setURL('https://github.com/andreluis29/bot-thomas')
-      .setAuthor({ name: 'André', iconURL: 'http://pm1.narvii.com/6707/fa3aca35e88f37f1c1cff15748640f677723b799_00.jpg', url: 'https://github.com/andreluis29/bot-thomas' })
+      .setAuthor({ name: 'André', iconURL: 'https://upload.wikimedia.org/wikipedia/en/d/dc/Thomas_Tank_Engine_1.JPG', url: 'https://github.com/andreluis29/bot-thomas' })
       .setDescription(`
         Olá marilene, gostaria de desejar boa noite!
       `)
-      .setThumbnail('http://pm1.narvii.com/6707/fa3aca35e88f37f1c1cff15748640f677723b799_00.jpg')
-      .setImage('http://pm1.narvii.com/6707/fa3aca35e88f37f1c1cff15748640f677723b799_00.jpg')
+      .setThumbnail('https://upload.wikimedia.org/wikipedia/en/d/dc/Thomas_Tank_Engine_1.JPG')
+      .setImage('https://upload.wikimedia.org/wikipedia/en/d/dc/Thomas_Tank_Engine_1.JPG')
       .setTimestamp()
-      .setFooter({ text: 'KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK', iconURL: 'http://pm1.narvii.com/6707/fa3aca35e88f37f1c1cff15748640f677723b799_00.jpg' });
+      .setFooter({ text: 'KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK', iconURL: 'https://upload.wikimedia.org/wikipedia/en/d/dc/Thomas_Tank_Engine_1.JPG' });
     return interaction.reply({ embeds: [exampleEmbed] });
   },
 };
